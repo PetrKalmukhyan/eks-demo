@@ -1,0 +1,16 @@
+variable aws_region {}                
+variable aws_profile {}                  
+variable env_prefix {}                   
+variable eks_version {}
+variable eks_cluster_name {}                  
+variable vpc_id {}                       
+variable eks_node_capacity_type {}                
+variable eks_node_common_desired_size {} 
+variable eks_node_common_max_size {}     
+variable eks_node_common_min_size {}
+variable eks_node_update_config {}
+variable eks_node_label {}     
+variable eks_node_type {}         
+variable eks_allow_cidrs {}
+variable iam_role_pod {}              
+variable cloudwatch_retention_in_days {} 

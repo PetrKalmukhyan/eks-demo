@@ -1,0 +1,16 @@
+aws_region                   = "us-east-1"
+aws_profile                  = "eks"
+env_prefix                   = "dev"
+eks_cluster_name             = "demo"
+eks_version                  = "1.24"
+vpc_id                       = "vpc-0ae860f09dd9cfecc"
+eks_node_common_desired_size = "1"
+eks_node_common_max_size     = "4"
+eks_node_common_min_size     = "1"
+eks_node_type                = ["t3a.medium"]
+eks_node_capacity_type       = "ON_DEMAND"
+eks_node_update_config       = "1"
+eks_node_label               = "general"
+eks_allow_cidrs              = ["0.0.0.0/0"]
+iam_role_pod                 = "test-oidc"  
+cloudwatch_retention_in_days = "30"
