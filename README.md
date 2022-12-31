@@ -6,6 +6,7 @@ In order to start using current solution following requirement should be met:
 - Terraform version v1.3.6 or higher must be installed.
 - AWS access key and secret key of the user with full permissions for EC2, EKS and IAM.
 - kubectl version: v1.24 or higher must be installed.
+- eks-demo.sh script was tested on Linux, but should work fine on Mac too.
 <br>
 
 Also following configuration should be done in advance: <br> ` aws configure --profile eks`
