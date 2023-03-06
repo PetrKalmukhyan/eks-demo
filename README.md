@@ -1,5 +1,5 @@
 ## eks-demo
-# Task 1. [Automate EKS cluster setup on AWS](https://trello.com/c/VAoIRUBM/2-automate-eks-cluster-setup-on-aws) 
+# Task 1. [Automate EKS cluster setup on AWS]
 
 In order to start using current solution following requirement should be met:
 - The lastest version of aws cli should be installed.
@@ -28,7 +28,7 @@ Below is a brief description of how to use the solution.
 - type  <br> `destroy`
 
 
-# Task 2. [Managing secrets on Kubernetes](https://trello.com/c/EpQ4mfMj/5-managing-secrets-on-kubernetes) 
+# Task 2. [Managing secrets on Kubernetes]
 Storing sensitive data, like secrets, in git repos sound like a common issue for the small development teams. However, keeping secrets in git repo is not a best practice, so for this case I'd recommend to implement Kubernetes Secrets, to store sensitive information. Unfortunately, be default, Kubernetes stores secrets only base64 encoded, which in not secure either. Two solutions described below are aimed to solve that that challenge:
 1. [AWS Secrets and Configuration Provider (ASCP)](https://docs.aws.amazon.com/secretsmanager/latest/userguide/integrating_csi_driver.html). In spite of native integration with AWS, this solution might require an additional development, as it has different secret query mechanism.
 2. [External Secrets](https://external-secrets.io). This solution provides seamless integration with AWS Secrets Managem and similar services from other cloud prodivers and can be used to map secrets directly into the pod. A huge plus is that no additional development is required.
